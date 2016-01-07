@@ -1,0 +1,15 @@
+<h2>Perfil</h2>
+
+<label>Nome
+  <name-input
+    text={{model.name}}
+    field-name="Nome"
+    on-change={{action "controllerAction" "name"}} />
+</label>
+
+<label>Sobrenome
+  <name-input
+    text={{model.lastName}}
+    field-name="Sobrenome"
+    on-change={{action "controllerAction" "lastName"}} />
+</label>
